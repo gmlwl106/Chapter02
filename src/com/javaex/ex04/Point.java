@@ -11,18 +11,18 @@ public class Point {
 	
 	
 	//메소드 - gs
+	//Setter
 	public void setX(int pointX) {
 		x = pointX;
 	}
-	
 	public void setY(int pointY) {
 		y = pointY;
 	}
 	
+	//Getter
 	public int getX() {
 		return x;
 	}
-	
 	public int getY() {
 		return y;
 	}
