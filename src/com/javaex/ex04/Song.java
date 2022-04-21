@@ -15,6 +15,7 @@ public class Song {
 	
 	
 	//메소드-gs
+	//Setter
 	public void setTitle(String songTitle) {
 		title = songTitle;
 	}
@@ -34,7 +35,7 @@ public class Song {
 		track = songTrack;
 	}
 	
-	
+	//Getter
 	public String getTitle() {
 		return title;
 	}
