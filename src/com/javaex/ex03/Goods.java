@@ -10,20 +10,20 @@ public class Goods {
 	
 	
 	//메소드 - gs
-	public void setName(String n) {
-		name = n;
-	}
-	
-	public void setPrice(int p) {
-		price = p;
-	}
-	
 	public String getName() {
 		return name;
 	}
-	
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public int getPrice() {
 		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
 	}
 	
 	
