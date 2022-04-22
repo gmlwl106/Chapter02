@@ -15,51 +15,73 @@ public class Song {
 	
 	
 	//메소드-gs
-	//Setter
-	public void setTitle(String songTitle) {
-		title = songTitle;
-	}
-	public void setArtist(String songArtist) {
-		artist = songArtist;
-	}
-	public void setAlbum(String songAlbum) {
-		album = songAlbum;
-	}
-	public void setComposer(String songComposer) {
-		composer = songComposer;
-	}
-	public void setYear(int songYear) {
-		year = songYear;
-	}
-	public void setTrack(int songTrack) {
-		track = songTrack;
-	}
-	
-	//Getter
+
 	public String getTitle() {
 		return title;
 	}
+
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+
 	public String getArtist() {
 		return artist;
 	}
+
+
+	public void setArtist(String artist) {
+		this.artist = artist;
+	}
+
+
 	public String getAlbum() {
 		return album;
 	}
+
+
+	public void setAlbum(String album) {
+		this.album = album;
+	}
+
+
 	public String getComposer() {
 		return composer;
 	}
+
+
+	public void setComposer(String composer) {
+		this.composer = composer;
+	}
+
+
 	public int getYear() {
 		return year;
 	}
+
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+
 	public int getTrack() {
 		return track;
 	}
+
+
+	public void setTrack(int track) {
+		this.track = track;
+	}
+	
 	
 
 	//메소드-일반
 	public void showInfo() {
 		System.out.println(artist + ", " + title + " ( " + album + ", " + year + ", " + track + "번 track, " + composer + " 작곡 )");
 	}
+
 	
 	
 	
